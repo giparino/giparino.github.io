@@ -1,0 +1,228 @@
+/* - Contact1 Section */
+
+.contact1-section {
+    position: relative;
+  }
+  
+  .contact1right-bg {
+    background-color: #f6f6f6;
+    right: 0;
+    top: 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+  }
+  
+  .contact1-section {
+  
+    .contact-info-block,
+    .contactus-form {
+      padding-top: 110px;
+    }
+  }
+  
+  .contact1-title {
+    position: relative;
+    color: #333;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.125px;
+    margin: 0 0 56px;
+    line-height: 30px;
+  }
+  
+  .contact1-section {
+    .contactus-form {
+      .form-group {
+        margin-bottom: 30px;
+      }
+  
+      .form-control {
+        border-radius: 0;
+        background-color: #f6f6f6;
+        border: none;
+        font-size: 14px;
+        font-family: 'Droid Serif', serif;
+        box-shadow: none;
+        min-height: 56px;
+        -webkit-box-shadow: none;
+        -webkit-appearance: none;
+        padding: 0;
+        color: #333;
+        letter-spacing: 0.375px;
+        padding: 12px 21px;
+        border: 1px solid transparent;
+        transition: all 1s ease 0s;
+        -webkit-transition: all 1s ease 0s;
+        -moz-transition: all 1s ease 0s;
+        -o-transition: all 1s ease 0s;
+  
+        &:focus {
+          border-color: #000;
+        }
+      }
+  
+      textarea.form-control {
+        height: 244px;
+        padding: 12px 21px;
+      }
+  
+      .form-control {
+  
+        &::-webkit-input-placeholder,
+        &:-moz-placeholder,
+        &::-moz-placeholder,
+        &:-ms-input-placeholder {
+          text-transform: capitalize;
+          color: #999;
+        }
+      }
+  
+      .submit-btn {
+        border: 1px solid transparent;
+        background-color: transparent;
+        display: inline-block;
+        border-radius: 0;
+        color: #cc9900;
+        font-size: 14px;
+        text-transform: uppercase;
+        line-height: 26px;
+        letter-spacing: 0.375px;
+        font-family: 'Montserrat', sans-serif;
+        transition: all 1s ease 0s;
+        -webkit-transition: all 1s ease 0s;
+        -moz-transition: all 1s ease 0s;
+        -o-transition: all 1s ease 0s;
+        position: relative;
+        margin-top: 5px;
+  
+        span {
+          font-size: 15px;
+          margin-left: 7px;
+          position: relative;
+          top: 2px;
+        }
+  
+        &:hover {
+          color: #000;
+        }
+      }
+    }
+  
+    .contact-info-block {
+      background-color: #f6f6f6;
+      padding-bottom: 120px;
+      padding-left: 34px;
+    }
+  }
+
+  /* - Contact Info Block */
+
+.contact1-details {
+    display: inline-block;
+    margin-bottom: 57px;
+  
+    .contact2-title {
+      position: relative;
+      color: #333;
+      font-size: 25px;
+      font-weight: 700;
+      font-family: 'Montserrat', sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.125px;
+      margin: 0 0 47px;
+      line-height: 30px;
+      padding: 0;
+      text-align: left;
+    }
+  
+    p {
+      color: #666;
+      font-size: 14px;
+      line-height: 26px;
+      letter-spacing: 0.350px;
+      font-family: 'Droid Serif', serif;
+      padding-right: 50px;
+    }
+  }
+  
+  .working-hrs {
+    margin-bottom: 66px;
+  }
+  
+  .contactdetail-title {
+    position: relative;
+    color: #333;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.450px;
+    margin: 0 0 11px;
+    line-height: 30px;
+    padding: 0;
+  }
+  
+  .working-hrs {
+    p {
+      display: inline-block;
+      width: 100%;
+      color: #666;
+      font-size: 14px;
+      line-height: 26px;
+      letter-spacing: 0.350px;
+      margin-bottom: 0;
+  
+      span {
+        color: #333;
+        font-weight: 700;
+      }
+    }
+  
+    >span {
+      font-style: italic;
+      font-size: 13px;
+      letter-spacing: 0.325px;
+      line-height: 26px;
+      font-family: 'Droid Serif', serif;
+      color: #999;
+    }
+  }
+  
+  .contact-info p {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    color: #666;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 0.350px;
+    padding-left: 38px;
+    margin-bottom: 6px;
+  
+    span {
+      font-size: 18px;
+      color: #999;
+      line-height: 30px;
+      letter-spacing: 0.450px;
+      position: absolute;
+      left: 0;
+    }
+  
+    a {
+      text-decoration: none;
+      color: #666;
+      transition: all 1s ease 0s;
+      -webkit-transition: all 1s ease 0s;
+      -moz-transition: all 1s ease 0s;
+      -o-transition: all 1s ease 0s;
+  
+      &:hover {
+        color: #000;
+      }
+    }
+  }
+  
+  

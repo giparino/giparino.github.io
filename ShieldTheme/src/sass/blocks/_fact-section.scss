@@ -1,0 +1,37 @@
+.fact-section {
+  background-color: #ededed;
+
+  .facts-main-1 {
+    display: inline-block;
+    width: 100%;
+
+    .row {
+      padding: 60px 0;
+
+      .fact-box {
+        text-align: center;
+        border-right: 1px solid #ccc;
+        padding: 37px 0;
+
+        span {
+          color: #252525;
+          font-size: 24px;
+          font-family: 'Montserrat', sans-serif;
+          font-weight: 700;
+          letter-spacing: 1.0035px;
+          margin-top: 0;
+          margin-bottom: 25px;
+        }
+
+        sub {
+          color: #999;
+          font-size: 14px;
+          font-family: 'Montserrat', sans-serif;
+          font-weight: 700;
+          letter-spacing: 2.1px;
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
